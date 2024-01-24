@@ -3,4 +3,4 @@
 ## Em desenvolvimento
 ___
 
-# Projeto sendo realizado pela Alura/Oracle
+# Projeto baseado nas aulas da Alura/Oracle
