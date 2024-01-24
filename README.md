@@ -7,4 +7,6 @@ ___
 . HTML
 . CSS
 . Flex-box
+___
+
 # Projeto baseado nas aulas da Alura/Oracle
