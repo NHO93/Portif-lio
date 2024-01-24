@@ -4,9 +4,12 @@
 ___
 
 # Ferramentas  utiizadas:
-. HTML
-. CSS
-. Flex-box
+
+HTML
+
+CSS
+
+Flex-box
 ___
 
 # Projeto baseado nas aulas da Alura/Oracle
