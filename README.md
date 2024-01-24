@@ -11,5 +11,10 @@ CSS
 
 Flex-box
 ___
+## Feito por:
+
+Edenilson Fabiano
+
+___
 
 # Projeto baseado nas aulas da Alura/Oracle
