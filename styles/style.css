@@ -71,6 +71,9 @@ body{
 }
 
 .certificado{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     color: var(--cor-secundaria);
 }
 
