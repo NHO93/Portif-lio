@@ -21,7 +21,7 @@ body{
 }
 .cabecalho{
     background-color: var(--cor-terciaria);
-    padding: 0.05% 0 0 30%;
+    padding: 30%;
 }
 
 .cabecalho__menu{
@@ -121,7 +121,7 @@ span{
 }
 
 .rodape{
-    padding: 0.05% 0 0 30%;
+    padding: 30%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     align-items: center;
