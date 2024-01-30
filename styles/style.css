@@ -21,7 +21,7 @@ body{
 }
 .cabecalho{
     background-color: var(--cor-terciaria);
-    padding: 0.05% 0 0 30%;
+    padding: 2% 0 0 15%;
 }
 
 .cabecalho__menu{
@@ -34,6 +34,7 @@ body{
 .cabecalho__menu__link{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    font-weight: 600;
     color: var(--cor-primaria);
     margin: 0 10px;
     padding: 10px 15px;
@@ -47,7 +48,7 @@ body{
 
 
 .apresentacao{
-    padding: 8% 15%;
+    margin: 9% 15%;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
@@ -117,18 +118,19 @@ span{
     cursor: pointer;
     background-color:var(--cor-de-fundo);
     color: var(--cor-terciaria);
-    transition: 5s;
+    transition: 0.5s;
 }
 
 .rodape{
-    padding: 0.05% 0 0 30%;
+    margin-top: 222px;
+    padding: 20px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     align-items: center;
     justify-content: center;
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -141,7 +143,7 @@ span{
     color: var(--cor-terciaria);
 }
 
-@media(max-width: 1200px ){
+@media(max-width: 500px ){
     .cabecalho{
         padding:100%;
     }
