@@ -37,7 +37,7 @@ body{
     font-weight: 600;
     color: var(--cor-primaria);
     margin: 0 10px;
-    padding: 10px 15px;
+    padding: 0.5px 05px;
     text-decoration: none;
 }
 
@@ -115,6 +115,7 @@ span{
     text-decoration: none;
     font-family: var(--cor-primaria);
 }
+
 .apresentacao__links__link:hover{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -126,11 +127,11 @@ span{
     justify-content: center;
     align-items: flex-end;
     margin-top: 222px;
-    padding: 20px;
+    padding: 10px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     font-weight: 300;
 }
 
@@ -143,7 +144,7 @@ span{
     color: var(--cor-terciaria);
 }
 
-@media(max-width: 200px ){
+@media(max-width: 100px ){
     .cabecalho{
         padding:100%;
     }
@@ -154,7 +155,7 @@ span{
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 30%;
+        padding: 10%;
     }
 
     .apresentacao__conteudo{
