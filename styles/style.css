@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root {
     --cor-primaria: #0b0404;
     --cor-secundaria: #ffa71af7;
     --cor-terciaria: #ffffff;
-    --cor-quartenaria: #054dab;
-    --cor-de-fundo: #0747a7;
+    --cor-quartenaria: #032a5e;
 }
 
 *{
@@ -89,7 +89,7 @@ span{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 20px;
 }
 
 .apresentacao__links__subtitulo{
@@ -99,42 +99,43 @@ span{
 }
 
 .apresentacao__links__navegacao{
-    background-color: var(--cor-de-fundo);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 16px;
-    width: 50%;
     text-align: center;
-    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    width: 50%;
+    background-color: var(--cor-terciaria);
+    color: #060707;
+    padding: 10px 0;
+    border: 3px solid var(--cor-primaria);
+    border-radius: 8px;
     text-decoration: none;
-    color: var(--cor-primaria);
-    border: 2px solid var(--cor-secundaria); ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--cor-primaria);
 }
 .apresentacao__links__link:hover{
-    cursor: pointer;
-    background-color:var(--cor-de-fundo);
-    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     transition: 0.5s;
 }
 
 .rodape{
-    padding: 0.05% 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 222px;
+    padding: 20px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    align-items: center;
-    justify-content: center;
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .apresentacao__img{
-    width: 50%;
+    width: 40%;
 }
 
 .apresentacao__conteudo__texto{
@@ -142,7 +143,7 @@ span{
     color: var(--cor-terciaria);
 }
 
-@media(max-width: 500px ){
+@media(max-width: 200px ){
     .cabecalho{
         padding:100%;
     }
@@ -153,7 +154,7 @@ span{
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 20%;
+        padding: 30%;
     }
 
     .apresentacao__conteudo{
